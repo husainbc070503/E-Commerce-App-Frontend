@@ -1,0 +1,36 @@
+.form {
+    width: 500px;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.TextField.input,
+.form .text {
+    margin: 16px 0;
+    width: 100%;
+}
+
+.form-heading {
+    text-align: center;
+    color: #5D13E7;
+}
+
+.form .text {
+    height: 200px;
+    outline: 0;
+    padding: 20px;
+    font-family: 'calibiri';
+    font-size: 18px;
+    border: 0.8px solid #9db2bfb7;
+    border-radius: 6px;
+}
+
+.Button.submit {
+    background: #740ee9;
+    color: #fff;
+}
+
+.Button.submit:hover {
+    background: #fff;
+    color: #740ee9;
+}

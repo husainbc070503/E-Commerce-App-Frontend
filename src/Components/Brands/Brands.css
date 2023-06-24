@@ -1,0 +1,29 @@
+.brands {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands .image {
+    width: 150px;
+    max-width: 100%;
+    margin: 0 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 890px) {
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    .brands .image {
+        width: 120px;
+        flex: 1;
+    }
+}

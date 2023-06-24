@@ -1,0 +1,32 @@
+.category-container,
+.company-container,
+.price-container,
+.ratings-container {
+    margin: 30px auto;
+}
+
+.products-container {
+    width: 1200px;
+}
+
+.price-range {
+    accent-color: #5C469C;
+    width: 100%;
+}
+
+.fa-indian-rupee-sign {
+    margin-right: 4px;
+}
+
+.Button.active {
+    color: #191919;
+    font-weight: bold;
+}
+
+.sort-filter {
+    margin-top: 10px;
+}
+
+.product-list-container {
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+.ecom-container {
+    width: 950px;
+    max-width: 95%;
+    margin: 10rem auto;
+}
+
+.image-block {
+    width: 480px;
+    position: relative;
+}
+
+.intro-image {
+    width: 100%;
+}
+
+.image-block::after {
+    content: "";
+    width: 60%;
+    height: 80%;
+    background-color: rgba(81, 56, 238, 0.4);
+    position: absolute;
+    left: 50%;
+    top: -2.5rem;
+    z-index: -1;
+}
+
+.heading {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.heading span {
+    color: #9376E0;
+    text-align: justify;
+}
+
+.heading h1 {
+    margin: 0;
+    color: #213555;
+    font-size: 40px;
+}
+
+.text {
+    text-align: justify;
+    color: #526D82;
+    margin-bottom: 32px;
+}
+
+.show-now-link {
+    text-decoration: none;
+    background: #9376E0;
+    color: #fff;
+    padding: 12px 16px;
+
+}
+
+.show-now-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 890px) {
+    .image-block {
+        width: 90%;
+        margin: 20px auto 0;
+    }
+
+    .image-block::after {
+        left: 46%;
+        top: -1.6rem;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,101 @@
+.cart-container {
+    width: 1300px;
+    padding-bottom: 10%;
+}
+
+.Typography.header {
+    font-size: 30px;
+    color: #27374D;
+    margin: 30px 0;
+}
+
+.pro-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Grid.details {
+    width: 80%;
+}
+
+.TableCell.header {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Typography.cellText {
+    font-size: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #070A52;
+}
+
+.quantity {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.sub-total-container {
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+    background: #E5BEEC;
+    margin: 30px 10px;
+}
+
+.continue {
+    text-decoration: none;
+    padding: 14px 12px;
+    border-radius: 4px;
+    background: #3A1078;
+    color: #fff;
+}
+
+.continue:hover {
+    color: #fff;
+}
+
+.Button.clear {
+    background: #FC2947;
+    color: #fff;
+    float: right;
+}
+
+.Button.clear:hover {
+    background: #FC2947;
+}
+
+.Button.checkout {
+    margin-top: 14px;
+    background: #776AE3;
+}
+
+.Button.checkout:hover {
+    background: #fff;
+    color: #352D4D;
+}
+
+@media (max-width: 890px) {
+    .sub-total-container {
+        float: none;
+    }
+
+    .Typography.cellText {
+        font-size: 14px;
+    }
+
+    .Button.clear {
+        float: none;
+        margin-top: 34px;
+    }
+
+    .cart-container {
+        padding-bottom: 0;
+    }
+
+    .quantity {
+        font-size: 18px;
+    }
+}

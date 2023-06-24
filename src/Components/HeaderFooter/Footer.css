@@ -1,0 +1,30 @@
+.footer-section {
+    width: 100%;
+    background: #B799FF;
+    padding: 3rem 0;
+    margin-top: 0;
+}
+
+.footer-container {
+    width: 950px;
+    max-width: 95%;
+    margin: auto
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.icons>i {
+    padding: 12px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #370665;
+}

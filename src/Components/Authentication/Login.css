@@ -1,0 +1,113 @@
+.auth-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)), url('../../images/loginbg-transformed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.auth-card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 90%;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #ecf8f9a2;
+    box-shadow: 0 10px 30px #cdfffc81;
+}
+
+.auth-header {
+    margin: 30px auto 16px;
+}
+
+.auth-header .logo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.auth-header .Typography.heading {
+    font-size: 32px;
+    text-align: center;
+    color: #0C134F;
+    font-weight: bold;
+}
+
+.register-form {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.login-form .Grid.input-group,
+.input-group {
+    margin: 10px auto;
+}
+
+.auth-card .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.auth-card .Button.btn {
+    background: #fab513;
+    color: #000000;
+}
+
+.Typography.forget {
+    font-size: 14px;
+    cursor: pointer;
+    color: #29302eea;
+}
+
+.Typography.forget:hover {
+    color: #191919;
+}
+
+.Typography.already {
+    padding-bottom: 2px;
+    color: #20262E;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.up-container {
+    width: 600px;
+    max-width: 93%;
+}
+
+.up-image {
+    border-radius: 50%;
+    background: transparent;
+    position: relative;
+}
+
+.up-label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.up-image>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.up-container .input-group {
+    margin: 30px 0;
+}
+
+@media (max-width: 890px) {
+    .auth-container {
+        background-position: center;
+    }
+}
