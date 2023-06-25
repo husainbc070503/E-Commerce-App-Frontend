@@ -57,7 +57,7 @@ const Footer = () => {
             </Grid>
           </Grid>
           <Copyright>
-            Copyright &copy; Champa Store - 2023 Founded by Husain Champawala
+            Copyright &copy; InnovateTech - 2023 Founded by Husain Champawala
           </Copyright>
         </Box>
       </div>

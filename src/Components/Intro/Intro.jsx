@@ -15,7 +15,7 @@ const Intro = () => {
           <Grid item md={4} marginRight="4rem">
             <div className="heading">
               <span>Welcome to</span>
-              <h1>Champa Store</h1>
+              <h1>InnovateTech.</h1>
             </div>
             <div className="text">
               <Typography>
