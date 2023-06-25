@@ -57,7 +57,7 @@ const Footer = () => {
             </Grid>
           </Grid>
           <Copyright>
-            Copyright &copy; InnovateTech - 2023 Founded by Husain Champawala
+            Copyright &copy; ElectroWorld - 2023
           </Copyright>
         </Box>
       </div>

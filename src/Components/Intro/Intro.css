@@ -15,11 +15,11 @@
 
 .image-block::after {
     content: "";
-    width: 60%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     background-color: rgba(81, 56, 238, 0.4);
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: -2.5rem;
     z-index: -1;
 }
@@ -65,7 +65,7 @@
     }
 
     .image-block::after {
-        left: 46%;
+        left: 36%;
         top: -1.6rem;
     }
 
